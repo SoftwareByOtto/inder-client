@@ -2,7 +2,7 @@ import path from 'path'
 
 export default function () {
   const options = {
-    url: this.options.socket.url || 'ws://inder.glitch.me:3333',
+    url: this.options.socket.url || 'ws://inder.glitch.me',
     debug: this.nuxt.options.dev, // Disable debug messages in production mode
     options: {
       path: this.options.socket.options.path || 'adonis-ws',

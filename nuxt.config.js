@@ -48,14 +48,14 @@ export default {
     '~/io'
   ],
   socket: {
-    url: 'ws://192.168.1.4:3333',
+    url: 'ws://inder.glitch.me',
     options: {}
   },
   /*
   ** Axios module configuration
   */
   axios: {
-    baseURL: 'http://192.168.1.4:3333/'
+    baseURL: 'https://inder.glitch.me/'
   },
 
   auth: {

@@ -1,7 +1,6 @@
 <template>
   <div>
     <b-container>
-      {{profile}}
       <h1>Profile of {{profile.username.toUpperCase()}}</h1>
       <b-card header="Profile">
         <img :src="profile.avatar" alt />

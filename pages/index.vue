@@ -25,7 +25,7 @@
 
     <b-modal @ok="dislike" title="You disliked someone" id="dislike-modal">
       <b-form-group label="Why don't you like that person?" description="Help them get better.">
-        <b-input v-model="dislikeReason" placeholder="they were stupid, too ugly, fat etc."></b-input>
+        <b-input v-model="dislikeReason"></b-input>
       </b-form-group>
     </b-modal>
   </div>

@@ -48,7 +48,7 @@ export default {
     '~/io'
   ],
   socket: {
-    url: 'ws://inder.glitch.me',
+    url: 'wss://inder.glitch.me',
     options: {}
   },
   /*

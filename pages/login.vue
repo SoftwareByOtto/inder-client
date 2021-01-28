@@ -12,7 +12,6 @@
         <b-button type="submit">Submit</b-button>
       </b-form>
       <br />
-      <b-button @click="loginTest">QuickLogin for Test</b-button>
 
       <hr />
       <h3>Don't have an account?</h3>
